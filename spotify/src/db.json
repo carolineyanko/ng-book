@@ -1,0 +1,127 @@
+{
+  "search": [
+    {
+      "id": "tid1",
+      "album": {
+        "id": "al1",
+        "name": "Album Mega name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar1",
+          "name": "Artist"
+        }
+      ],
+      "name": "string",
+      "type": "track"
+    },
+    {
+      "id": "tid2",
+      "album": {
+        "id": "al2",
+        "name": "Album Awesome Name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar2",
+          "name": "Song Awesome Name"
+        }
+      ],
+      "name": "string",
+      "type": "track"
+    },
+    {
+      "id": "tid3",
+      "album": {
+        "id": "al3",
+        "name": "Album Name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar3",
+          "name": "Artist"
+        }
+      ],
+      "name": "Song name",
+      "type": "track"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "tid1",
+      "album": {
+        "id": "al1",
+        "name": "Album Mega name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar1",
+          "name": "Artist"
+        }
+      ],
+      "name": "string",
+      "type": "track"
+    },
+    {
+      "id": "tid2",
+      "album": {
+        "id": "al2",
+        "name": "Album Awesome Name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar2",
+          "name": "Song Awesome Name"
+        }
+      ],
+      "name": "string",
+      "type": "track"
+    },
+    {
+      "id": "tid3",
+      "album": {
+        "id": "al3",
+        "name": "Album Name",
+        "images": [
+          {
+            "url": "https://dummyimage.com/300"
+          }
+        ]
+      },
+      "artists": [
+        {
+          "id": "ar3",
+          "name": "Artist"
+        }
+      ],
+      "name": "Song name",
+      "type": "track"
+    }
+  ],
+  "profile": { "name": "typicode" }
+}

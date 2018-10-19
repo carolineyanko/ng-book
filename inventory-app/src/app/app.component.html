@@ -1,0 +1,9 @@
+<div class="container">
+  <!--<demo-form></demo-form>-->
+  <app-form-builder></app-form-builder>
+  (Products will go here soon)
+  <app-product-list
+    [productList]="products"
+    (onProductSelected)="productWasSelected($event)">
+  </app-product-list>
+</div>

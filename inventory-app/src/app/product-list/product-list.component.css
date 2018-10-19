@@ -1,0 +1,11 @@
+.row .selected {
+  display: block;
+  border: 1px solid red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

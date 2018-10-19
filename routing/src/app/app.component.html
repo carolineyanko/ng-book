@@ -1,0 +1,19 @@
+<div class="page-header">
+  <div class="container">
+    <h1>Router Sample</h1>
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact Us</a></li>
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/products']" routerLinkActive="active">Products</a></li>
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Login</a></li>
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/protected']" routerLinkActive="active">Protected</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
