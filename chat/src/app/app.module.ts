@@ -10,6 +10,7 @@ import { UserServiceInjectables } from './user/users.service';
 import { MessagesServiceInjectables } from './message/messages.service';
 import { ThreadsServiceInjectables } from './thread/threads.service';
 import { ChatPageComponent } from './chat-page/chat-page.component';
+import { ChatThreadComponent } from './chat-thread/chat-thread.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ChatPageComponent } from './chat-page/chat-page.component';
     ChatNavBarComponent,
     ChatThreadsComponent,
     ChatWindowComponent,
-    ChatPageComponent
+    ChatPageComponent,
+    ChatThreadComponent
   ],
   imports: [
     BrowserModule
